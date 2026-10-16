@@ -33,7 +33,6 @@ Včasih pride prav značka `kbd` za tipke. Značko uporabimo takole:
 <!-- Spodnji seznam bo pripravil seznam nalog. Na GitHubu bodo lepo vidna potrditvena polja, 
      VSCode pa bo prikazal samo oglate oklepaje. Ko nalogo opravite, si to lahko zabeležite tako,
      da spremenite [ ] v [x]. -->
-- [ ] Izberite si še tri bližnjice, ki jih še ne uporabljate redno, in se jih naučite. 
 - [ ] Alt + Tab
 - [ ] Ctrl + X
 - [ ] Alt + Ctrl + puščica
