@@ -16,6 +16,8 @@
 *.snm
 *.synctex.gz
 
+!*-resitev.pdf
+
 # MacOS
 __MACOSX
 .DS_Store
