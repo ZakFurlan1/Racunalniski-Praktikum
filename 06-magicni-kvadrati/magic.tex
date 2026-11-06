@@ -15,7 +15,11 @@
 % Kjer v besedilu naletite na niz `!!`, ga nadomestite z matematičnim izrazom
 % iz datoteke `magic-resitev.pdf`.
 
+\theoremstyle{definition}
 \newtheorem{definicija}{Definicija}
+
+\theoremstyle{plain}
+\newtheorem{izrek}{Izrek}
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 % Prvi sklop nalog
@@ -156,7 +160,7 @@ in zato kvadrat ni normalen.
       v magičnem kvadratu imenujemo \emph{magična konstanta}.
 \end{definicija}
 
-% Začetek okolja izrek
+\begin{izrek}
    Magična konstanta normalnega magičnega kvadrata reda !!
    je enaka
    \begin{equation}
@@ -165,15 +169,15 @@ in zato kvadrat ni normalen.
       % zato tu izraz vpišite brez `\[` in `\]`.
       !!
    \end{equation}
-% Konec okolja izrek
+\end{izrek}
 
-% Začetek dokaza
+\begin{proof}
    V normalnem magičnem kvadratu reda \(n\) je vsota vseh nastopajočih
    števil (glej ?? na strani ??) enaka
    !!. Ker imamo
    v kvadratu \(n\) vrstic z enako vsoto, je vsota števil v eni vrstici
    enaka številu \(M_2(n)\). % sklica: eq:numbers, eq:numbers
-% Konec dokaza
+\end{proof}
 
 Preprost račun pokaže, da je konstanti ?? analogna konstanta
 \(M_2(n;A,D)\) za magični kvadrat, v katerem so nameščena števila
