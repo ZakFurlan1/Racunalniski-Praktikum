@@ -17,6 +17,7 @@
 *.synctex.gz
 
 !*-resitev.pdf
+!slika.pdf
 
 # MacOS
 __MACOSX
